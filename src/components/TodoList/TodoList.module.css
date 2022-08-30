@@ -1,0 +1,46 @@
+.list{
+    list-style: none;
+    margin-top: 10px;
+    height: 250px;
+    overflow-y: auto;
+}
+.list_text{
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 315px;
+}
+.list_item{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.list_item:nth-child(odd){
+    background-color: lightblue;
+}
+.list_item:nth-child(even){
+    background-color: whitesmoke;
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+}
+.delete{
+    background-color: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 7px 11px;
+    cursor: pointer;
+}
+.edit{
+    background-color: green;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 7px 11px;
+    cursor: pointer;
+}

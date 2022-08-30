@@ -1,0 +1,12 @@
+.alert{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 90%;
+    position: absolute;
+    left: 6%;
+    top: 0;
+    background-color: green;
+}
+
